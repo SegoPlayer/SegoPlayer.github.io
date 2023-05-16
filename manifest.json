@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "SegoPlayer",
+    "short_name": "SegoPlayer",
+    "description": "SegoPlayer is an audio player that has a simple yet beautiful design, you can select multiple files to play, and choose an image from your gallery to set as a background that suits your mood and taste ",
+    "start_url": "/",
+    "background_color": "#F6FC11",
+    "theme_color": "#2f3d58",
+    "orientation": "portrait",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/segoplayer.png",
+            "sizes": "512x512"
+        }
+    ]
+}

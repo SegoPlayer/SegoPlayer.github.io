@@ -1,0 +1,70 @@
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="manifest" href="/manifest.json">
+	<title>SegoPlayer</title>
+	<style type="text/css">
+
+body{
+  margin:0;
+}
+
+		body::before{
+  position:absolute;
+  content:"";
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  opacity:0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F6FC11;
+  filter: blur(3px);
+  }
+
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+  
+	<div class="container">
+	
+	<img id="img" src="SegoBG.png">
+	
+	<div class="container2">
+	<audio id="aud" controls></audio>
+	
+		
+
+	<div class="add-btns">
+	<button id="select-audio"></button>
+	<button id="select-image"></button>
+	</div> <!--End of add-btns-->
+
+	<div class="control-btns">
+	<button id="prv"></button>
+	<button id="stop"></button>
+	<button id="nxt"></button>
+	</div> <!--End of control-btns-->
+
+	
+	<p id="title">Title -Nothing is playing now-</p>
+	</div> <!--End of container2-->
+		
+	</div> <!--End of container-->
+	
+
+	<script type="text/javascript" src="main.js"></script>
+	<script>
+  if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js', { scope: '/' });
+}
+</script>
+
+</body>
+</html>

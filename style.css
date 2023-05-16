@@ -1,0 +1,97 @@
+/*relative here is only for tge background opacity not for the flex*/
+.container{
+  position:relative;
+  display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	gap:15px;
+}
+
+
+  
+.container2{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	gap:15px;
+}
+
+
+#title{
+	text-align : center;
+	box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 #000, -1px 1px 0 black, 1px 1px 0 #000;
+}
+
+#img{
+	height:50%;
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
+}
+
+/*Buttons*/
+
+.control-btns{
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nxt{
+  background-image: url('nxt.png');
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-color: transparent;
+  border: 0px;
+}
+
+#prv{
+  background-image: url('prv.png');
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-color: transparent;
+  border: 0px;
+}
+
+#stop{
+  background-image: url('stop.png');
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-color: transparent;
+  border: 0px;
+}
+
+.add-btns{
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#select-audio{
+  background-image: url('aud.png');
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-color: transparent;
+  border: 0px;
+}
+
+#select-image{
+  background-image: url('img.png');
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-color: transparent;
+  border: 0px;
+}
